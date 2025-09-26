@@ -1,11 +1,11 @@
-/* Reset & box-sizing */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body / Global Styles */
+/* Body */
 body {
   min-height: 100vh;
   background-image: linear-gradient(#d8c7ff, #19006c);
@@ -14,6 +14,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding: 1rem;
+  overflow-x: hidden; /* prevent horizontal scroll on small screens */
 }
 
 /* Make typography scale a bit on smaller screens */
