@@ -1,6 +1,6 @@
 /* Container */
 .container {
-  width: 85%;              /* smaller width relative to screen */
+  width: 65%;              /* smaller width relative to screen */
   max-width: 300px;        /* smaller max-width for mobile/desktop */
   margin: 30px auto;
   padding: 0.8rem;         /* reduced padding */
