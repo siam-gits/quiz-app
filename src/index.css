@@ -1,9 +1,30 @@
+/* Reset & box-sizing */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+/* Body / Global Styles */
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-image: linear-gradient(#d8c7ff, #19006c);
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+/* Make typography scale a bit on smaller screens */
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+/* Optional: global responsive tweaks */
+@media (max-width: 480px) {
+  body {
+    padding: 0.5rem;
+  }
 }
