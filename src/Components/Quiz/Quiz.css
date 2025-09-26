@@ -1,59 +1,70 @@
+/* Container */
 .container {
-  width: 90%;           /* use most of screen width */
-  max-width: 400px;     /* smaller max-width for iPhones */
-  margin: 30px auto;    /* smaller top margin */
-  padding: 1rem;        /* reduce padding for small screens */
+  width: 90%;               /* use most of the screen */
+  max-width: 400px;         /* smaller max for iPhones */
+  margin: 50px auto;        /* smaller top margin */
   background: white;
-  border-radius: 10px;
+  color: #262626;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 1.5rem;          /* smaller, fluid padding */
+  box-sizing: border-box;
 }
 
-.container h2 {
-  font-size: 1.4rem;
-  font-weight: 500;
-  text-align: center;
-}
-
+/* Divider */
 .container hr {
   height: 2px;
   border: none;
   background: #707070;
 }
 
+/* Heading */
+.container h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* List Items */
 .container ul li {
   display: flex;
   align-items: center;
-  min-height: 45px;
-  padding: 0.5rem 0.75rem;
+  min-height: 45px;        /* flexible height */
+  padding-left: 15px;
+  padding-right: 15px;
   border: 1px solid #262626;
   border-radius: 8px;
-  margin-bottom: 10px;
-  font-size: 1rem;
+  margin-bottom: 15px;
+  font-size: 1rem;          /* smaller font for mobile */
   cursor: pointer;
   flex-wrap: wrap;
   word-break: break-word;
 }
 
+/* Buttons */
 .container button {
-  width: 100%;          /* full container width */
-  max-width: 200px;     /* smaller max width for iPhones */
+  width: 100%;              /* full width on mobile */
+  max-width: 200px;         /* smaller max-width for iPhone */
   margin: auto;
-  padding: 0.7rem;
-  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;          /* smaller font */
   font-weight: 500;
   border-radius: 8px;
   background: blue;
   color: white;
   cursor: pointer;
+  height: auto;             /* let height adapt */
 }
 
+/* Question index */
 .container .index {
   margin: auto;
   font-size: 0.9rem;
 }
 
+/* Correct/Wrong styles */
 .container .correct {
   background: #dffff2;
   border-color: green;
@@ -64,16 +75,17 @@
   border-color: red;
 }
 
-/* Extra small devices */
+/* Media Queries for smaller screens */
 @media (max-width: 360px) {
   .container {
-    width: 95%;        /* almost full screen */
-    padding: 0.75rem;
+    width: 95%;             /* almost full screen */
+    padding: 1rem;
     gap: 10px;
+    margin-top: 30px;
   }
 
   .container h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .container ul li {
