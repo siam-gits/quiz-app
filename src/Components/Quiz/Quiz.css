@@ -1,22 +1,14 @@
-/* Quiz Container */
+/* Container */
 .container {
-  width: 100%;            /* fluid width */
-  max-width: 640px;       /* cap width on larger screens */
+  width: 100%;            /* fluid */
+  max-width: 640px;       /* caps on large screens */
   margin: 50px auto;
   padding: 1.5rem;
   background: white;
-  color: #262626;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-/* Divider */
-.container hr {
-  height: 2px;
-  border: none;
-  background: #707070;
 }
 
 /* Heading */
@@ -26,45 +18,49 @@
   text-align: center;
 }
 
-/* List Items */
+/* Divider */
+.container hr {
+  height: 2px;
+  border: none;
+  background: #707070;
+}
+
+/* List items */
 .container ul li {
   display: flex;
   align-items: center;
-  height: auto;           /* allow text wrap */
-  min-height: 50px;       /* maintain minimum height */
+  min-height: 50px;
   padding: 0.75rem 1rem;
   border: 1px solid #262626;
   border-radius: 8px;
   margin-bottom: 15px;
   font-size: 1.1rem;
   cursor: pointer;
-  transition: background 0.3s, border-color 0.3s;
-  flex-wrap: wrap;        /* wrap long text */
+  flex-wrap: wrap; /* allow text to wrap */
+  word-break: break-word;
 }
 
 /* Buttons */
 .container button {
-  width: 100%;             /* fill container width */
-  max-width: 250px;        /* optional cap */
+  width: 100%;
+  max-width: 250px;
   margin: auto;
   padding: 0.8rem 1rem;
-  height: auto;            /* adjust height automatically */
-  background: blue;
-  color: white;
   font-size: 1.2rem;
   font-weight: 500;
   border-radius: 8px;
+  background: blue;
+  color: white;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
-/* Question Index */
+/* Index text */
 .container .index {
   margin: auto;
   font-size: 1rem;
 }
 
-/* Correct / Wrong States */
+/* Correct / Wrong */
 .container .correct {
   background: #dffff2;
   border-color: green;
@@ -75,7 +71,7 @@
   border-color: red;
 }
 
-/* Media Queries for Smaller Screens */
+/* Media Queries for Mobile (iPhones) */
 @media (max-width: 480px) {
   .container {
     margin-top: 30px;
@@ -83,13 +79,13 @@
   }
 
   .container h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .container ul li {
     font-size: 1rem;
-    padding: 0.5rem 0.75rem;
     min-height: 45px;
+    padding: 0.5rem 0.75rem;
   }
 
   .container button {
