@@ -1,28 +1,28 @@
 /* Base Container for All Devices */
 .container {
-  width: 60%;            /* reasonable width on desktop */
-  max-width: 150px;      /* keeps it compact */
-  margin: 30px auto;
-  padding: 1rem;
+  width: 55%;             /* smaller width on desktop */
+  max-width: 120px;       /* ultra-compact */
+  margin: 20px auto;
+  padding: 0.6rem;        /* smaller padding */
   background: white;
   color: #262626;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  border-radius: 10px;
+  gap: 6px;               /* tighter gap */
+  border-radius: 8px;
   box-sizing: border-box;
 }
 
 /* Divider */
 .container hr {
-  height: 2px;
+  height: 1px;            /* thinner divider */
   border: none;
   background: #707070;
 }
 
 /* Heading */
 .container h2 {
-  font-size: 1.3rem;
+  font-size: 1rem;        /* smaller heading */
   font-weight: 500;
   text-align: center;
 }
@@ -31,12 +31,12 @@
 .container ul li {
   display: flex;
   align-items: center;
-  min-height: 40px;
-  padding: 0.4rem 0.6rem;
+  min-height: 28px;       /* smaller height */
+  padding: 0.2rem 0.4rem; /* compact padding */
   border: 1px solid #262626;
-  border-radius: 8px;
-  margin-bottom: 10px;
-  font-size: 0.95rem;
+  border-radius: 6px;
+  margin-bottom: 6px;     /* reduced spacing */
+  font-size: 0.75rem;     /* smaller font */
   cursor: pointer;
   flex-wrap: wrap;
   word-break: break-word;
@@ -45,12 +45,12 @@
 /* Buttons */
 .container button {
   width: 100%;
-  max-width: 180px;
+  max-width: 140px;       /* smaller button */
   margin: auto;
-  padding: 0.6rem 0.8rem;
-  font-size: 0.95rem;
+  padding: 0.4rem 0.5rem; /* reduced padding */
+  font-size: 0.75rem;     /* smaller font */
   font-weight: 500;
-  border-radius: 8px;
+  border-radius: 6px;
   background: blue;
   color: white;
   cursor: pointer;
@@ -60,7 +60,7 @@
 /* Question Index */
 .container .index {
   margin: auto;
-  font-size: 0.85rem;
+  font-size: 0.7rem;      /* smaller index */
 }
 
 /* Correct / Wrong States */
@@ -74,61 +74,63 @@
   border-color: red;
 }
 
-/* iPhone Safari / Extra-small screens */
-@media (max-width: 414px) {  /* targets iPhone 6/7/8/12/13/14 widths */
+/* iPhone Safari / Small screens */
+@media (max-width: 414px) {
   .container {
-    width: 90%;
-    max-width: 240px;    /* shrink container */
-    padding: 0.6rem;     /* smaller padding */
-    gap: 8px;
-    margin-top: 15px;
+    width: 85%;
+    max-width: 180px;
+    padding: 0.5rem;
+    gap: 5px;
+    margin-top: 10px;
   }
 
   .container h2 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   .container ul li {
-    font-size: 0.85rem;
-    min-height: 35px;
-    padding: 0.3rem 0.5rem;
+    font-size: 0.7rem;
+    min-height: 25px;
+    padding: 0.2rem 0.3rem;
   }
 
   .container button {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     max-width: 100%;
-    padding: 0.5rem 0.6rem;
+    padding: 0.3rem 0.4rem;
   }
 
   .container .index {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
   }
 }
 
 /* Ultra-small iPhones (like SE / 320px) */
 @media (max-width: 360px) {
   .container {
-    max-width: 220px;
-    padding: 0.5rem;
-    gap: 6px;
+    width: 90%;
+    max-width: 160px;
+    padding: 0.4rem;
+    gap: 4px;
+    margin-top: 8px;
   }
 
   .container h2 {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 
   .container ul li {
-    font-size: 0.8rem;
-    min-height: 30px;
-    padding: 0.25rem 0.4rem;
+    font-size: 0.65rem;
+    min-height: 22px;
+    padding: 0.15rem 0.25rem;
   }
 
   .container button {
-    font-size: 0.8rem;
-    padding: 0.4rem 0.5rem;
+    font-size: 0.65rem;
+    padding: 0.25rem 0.3rem;
   }
 
   .container .index {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
   }
 }
