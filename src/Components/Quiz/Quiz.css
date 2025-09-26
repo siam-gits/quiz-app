@@ -1,15 +1,16 @@
 /* Container */
 .container {
-  width: 95%;              /* almost full screen on small devices */
-  max-width: 360px;        /* fits small iPhones */
+  width: 85%;              /* smaller width relative to screen */
+  max-width: 300px;        /* smaller max-width for mobile/desktop */
   margin: 30px auto;
-  padding: 1rem;
+  padding: 0.8rem;         /* reduced padding */
   background: white;
   color: #262626;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;               /* smaller gap */
   border-radius: 10px;
+  box-sizing: border-box;
 }
 
 /* Divider */
@@ -21,7 +22,7 @@
 
 /* Heading */
 .container h2 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;       /* smaller heading */
   font-weight: 500;
   text-align: center;
 }
@@ -30,36 +31,36 @@
 .container ul li {
   display: flex;
   align-items: center;
-  min-height: 45px;
-  padding: 0.5rem 0.75rem;
+  min-height: 40px;
+  padding: 0.4rem 0.6rem;
   border: 1px solid #262626;
   border-radius: 8px;
   margin-bottom: 10px;
-  font-size: 1rem;
+  font-size: 0.95rem;
   cursor: pointer;
-  flex-wrap: wrap;       /* wrap text on small screens */
+  flex-wrap: wrap;
   word-break: break-word;
 }
 
 /* Buttons */
 .container button {
-  width: 100%;            /* full container width */
-  max-width: 200px;       /* cap for larger devices */
+  width: 100%;             /* fill container width */
+  max-width: 180px;        /* smaller max-width */
   margin: auto;
-  padding: 0.7rem 1rem;
-  font-size: 1rem;
+  padding: 0.6rem 0.8rem;  /* smaller padding */
+  font-size: 0.95rem;      /* smaller font */
   font-weight: 500;
   border-radius: 8px;
   background: blue;
   color: white;
   cursor: pointer;
-  height: auto;           /* flexible height */
+  height: auto;
 }
 
 /* Question index */
 .container .index {
   margin: auto;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 /* Correct / Wrong */
@@ -73,32 +74,32 @@
   border-color: red;
 }
 
-/* Extra-small devices (iPhone SE, etc.) */
+/* Extra-small devices */
 @media (max-width: 360px) {
   .container {
-    width: 95%;
-    padding: 0.8rem;
-    gap: 10px;
+    width: 90%;
+    padding: 0.6rem;
+    gap: 8px;
     margin-top: 20px;
   }
 
   .container h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .container ul li {
-    font-size: 0.9rem;
-    min-height: 40px;
-    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+    min-height: 35px;
+    padding: 0.35rem 0.5rem;
   }
 
   .container button {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     max-width: 100%;
-    padding: 0.6rem;
+    padding: 0.5rem;
   }
 
   .container .index {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 }
