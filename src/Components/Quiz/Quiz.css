@@ -1,57 +1,70 @@
+/* Quiz Container */
 .container {
-  max-width: 90%;         /* scales on small screens */
-  width: 640px;            /* default width on large screens */
-  margin: 100px auto 0;
+  width: 100%;            /* fluid width */
+  max-width: 640px;       /* cap width on larger screens */
+  margin: 50px auto;
+  padding: 1.5rem;
   background: white;
   color: #262626;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border-radius: 10px;
-  padding: 2rem;
 }
 
+/* Divider */
 .container hr {
   height: 2px;
   border: none;
   background: #707070;
 }
 
+/* Heading */
 .container h2 {
   font-size: 1.6rem;
   font-weight: 500;
+  text-align: center;
 }
 
+/* List Items */
 .container ul li {
   display: flex;
   align-items: center;
-  height: 50px;
-  padding-left: 15px;
+  height: auto;           /* allow text wrap */
+  min-height: 50px;       /* maintain minimum height */
+  padding: 0.75rem 1rem;
   border: 1px solid #262626;
   border-radius: 8px;
-  margin-bottom: 20px;
-  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
   cursor: pointer;
+  transition: background 0.3s, border-color 0.3s;
+  flex-wrap: wrap;        /* wrap long text */
 }
 
+/* Buttons */
 .container button {
+  width: 100%;             /* fill container width */
+  max-width: 250px;        /* optional cap */
   margin: auto;
-  width: 60%;           /* responsive width */
-  max-width: 250px;
-  height: 65px;
+  padding: 0.8rem 1rem;
+  height: auto;            /* adjust height automatically */
   background: blue;
   color: white;
   font-size: 1.2rem;
   font-weight: 500;
   border-radius: 8px;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
+/* Question Index */
 .container .index {
   margin: auto;
   font-size: 1rem;
 }
 
+/* Correct / Wrong States */
 .container .correct {
   background: #dffff2;
   border-color: green;
@@ -62,21 +75,25 @@
   border-color: red;
 }
 
-/* Media queries for smaller screens */
+/* Media Queries for Smaller Screens */
 @media (max-width: 480px) {
   .container {
+    margin-top: 30px;
     padding: 1rem;
-    margin-top: 50px;
   }
+
   .container h2 {
     font-size: 1.4rem;
   }
+
   .container ul li {
     font-size: 1rem;
-    height: 45px; /* slightly smaller height */
+    padding: 0.5rem 0.75rem;
+    min-height: 45px;
   }
+
   .container button {
-    width: 100%;
     font-size: 1rem;
+    padding: 0.7rem;
   }
 }
