@@ -1,52 +1,47 @@
-/* Container */
 .container {
-  width: 100%;            /* fluid */
-  max-width: 640px;       /* caps on large screens */
-  margin: 50px auto;
-  padding: 1.5rem;
+  width: 90%;           /* use most of screen width */
+  max-width: 400px;     /* smaller max-width for iPhones */
+  margin: 30px auto;    /* smaller top margin */
+  padding: 1rem;        /* reduce padding for small screens */
   background: white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
-/* Heading */
 .container h2 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
   text-align: center;
 }
 
-/* Divider */
 .container hr {
   height: 2px;
   border: none;
   background: #707070;
 }
 
-/* List items */
 .container ul li {
   display: flex;
   align-items: center;
-  min-height: 50px;
-  padding: 0.75rem 1rem;
+  min-height: 45px;
+  padding: 0.5rem 0.75rem;
   border: 1px solid #262626;
   border-radius: 8px;
-  margin-bottom: 15px;
-  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-size: 1rem;
   cursor: pointer;
-  flex-wrap: wrap; /* allow text to wrap */
+  flex-wrap: wrap;
   word-break: break-word;
 }
 
-/* Buttons */
 .container button {
-  width: 100%;
-  max-width: 250px;
+  width: 100%;          /* full container width */
+  max-width: 200px;     /* smaller max width for iPhones */
   margin: auto;
-  padding: 0.8rem 1rem;
-  font-size: 1.2rem;
+  padding: 0.7rem;
+  font-size: 1rem;
   font-weight: 500;
   border-radius: 8px;
   background: blue;
@@ -54,13 +49,11 @@
   cursor: pointer;
 }
 
-/* Index text */
 .container .index {
   margin: auto;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
-/* Correct / Wrong */
 .container .correct {
   background: #dffff2;
   border-color: green;
@@ -71,25 +64,31 @@
   border-color: red;
 }
 
-/* Media Queries for Mobile (iPhones) */
-@media (max-width: 480px) {
+/* Extra small devices */
+@media (max-width: 360px) {
   .container {
-    margin-top: 30px;
-    padding: 1rem;
+    width: 95%;        /* almost full screen */
+    padding: 0.75rem;
+    gap: 10px;
   }
 
   .container h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .container ul li {
-    font-size: 1rem;
-    min-height: 45px;
-    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    min-height: 40px;
+    padding: 0.4rem 0.6rem;
   }
 
   .container button {
-    font-size: 1rem;
-    padding: 0.7rem;
+    max-width: 100%;
+    font-size: 0.95rem;
+    padding: 0.6rem;
+  }
+
+  .container .index {
+    font-size: 0.85rem;
   }
 }
