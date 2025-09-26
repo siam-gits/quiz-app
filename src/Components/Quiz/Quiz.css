@@ -1,7 +1,7 @@
 /* Base Container for All Devices */
 .container {
-  width: 80%;            /* reasonable width on desktop */
-  max-width: 300px;      /* keeps it compact */
+  width: 60%;            /* reasonable width on desktop */
+  max-width: 150px;      /* keeps it compact */
   margin: 30px auto;
   padding: 1rem;
   background: white;
