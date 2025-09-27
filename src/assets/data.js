@@ -1,3 +1,4 @@
+```javascript
 export const data = [
   {
     question: "Which is the **longest** river in the world?",
@@ -5,375 +6,374 @@ export const data = [
     option2: "Yangtze River",
     option3: "Nile River",
     option4: "Mississippi-Missouri River System",
-    ans: 3, // Nile River
+    ans: 3,
   },
-  //---------------------------------------------------------
   {
     question: "The **tallest mountain** in the world, Mount Everest, is part of which mountain range?",
     option1: "Andes",
     option2: "Rockies",
     option3: "Alps",
     option4: "Himalayas",
-    ans: 4, // Himalayas
+    ans: 4,
   },
-  //---------------------------------------------------------
   {
     question: "Which is the **smallest country** in the world by land area?",
     option1: "Monaco",
     option2: "Vatican City",
     option3: "Nauru",
     option4: "San Marino",
-    ans: 2, // Vatican City
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
     question: "The **tallest man-made structure** in the world is the Burj Khalifa, located in which city?",
     option1: "Shanghai",
     option2: "Dubai",
     option3: "Jeddah",
     option4: "New York City",
-    ans: 2, // Dubai
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
     question: "Which of the following is the **largest continent** by both area and population?",
     option1: "North America",
     option2: "Europe",
     option3: "Africa",
     option4: "Asia",
-    ans: 4, // Asia
+    ans: 4,
   },
-  //---------------------------------------------------------
   {
     question: "Which country is home to the **oldest continuous civilization** with written records dating back over 3,000 years?",
     option1: "Egypt",
     option2: "China",
     option3: "Greece",
-    option4: "Iran (Persia)",
-    ans: 2, // China
+    option4: "Iran",
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
     question: "Which of the following is the **largest hot desert** in the world?",
     option1: "Gobi Desert",
     option2: "Arabian Desert",
     option3: "Kalahari Desert",
     option4: "Sahara Desert",
-    ans: 4, // Sahara Desert
+    ans: 4,
   },
-  //---------------------------------------------------------
   {
     question: "Which is the **deepest point** on the Earth's surface, located in the Mariana Trench?",
     option1: "Java Trench",
     option2: "Challenger Deep",
     option3: "K-2 Trench",
     option4: "Puerto Rico Trench",
-    ans: 2, // Challenger Deep
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
     question: "Who was the **first man** to walk on the Moon?",
     option1: "Yuri Gagarin",
     option2: "Buzz Aldrin",
     option3: "Neil Armstrong",
     option4: "Michael Collins",
-    ans: 3, // Neil Armstrong
+    ans: 3,
   },
-  //---------------------------------------------------------
   {
     question: "Which lake is the **largest freshwater lake** in the world by surface area?",
     option1: "Lake Baikal",
     option2: "Lake Victoria",
     option3: "Caspian Sea",
     option4: "Lake Superior",
-    ans: 4, // Lake Superior
+    ans: 4,
   },
-  //---------------------------------------------------------
   {
     question: "Which country is known as the **'Land of the Rising Sun'**?",
     option1: "China",
     option2: "South Korea",
     option3: "Japan",
     option4: "Australia",
-    ans: 3, // Japan
+    ans: 3,
   },
-  //---------------------------------------------------------
   {
     question: "What is the name of the **largest cell** in the human body?",
     option1: "Nerve Cell (Neuron)",
     option2: "Ovum (Female Egg Cell)",
     option3: "Red Blood Cell",
     option4: "Liver Cell (Hepatocyte)",
-    ans: 2, // Ovum (Female Egg Cell)
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
     question: "Which is the **oldest continuous university** in the world, according to UNESCO?",
     option1: "University of Bologna, Italy",
     option2: "University of Al-Qarawiyyin, Morocco",
     option3: "University of Oxford, England",
     option4: "Nalanda University, India",
-    ans: 2, // University of Al-Qarawiyyin, Morocco
+    ans: 2,
   },
- 
-  //---------------------------------------------------------
   {
     question: "Which planet in our solar system is known as the **'Red Planet'**?",
     option1: "Venus",
     option2: "Mars",
     option3: "Jupiter",
     option4: "Uranus",
-    ans: 2, // Mars
+    ans: 2,
   },
-
-  //---------------------------------------------------------
   {
     question: "The **largest island** in the world is Greenland. Which country holds sovereignty over it?",
     option1: "Canada",
     option2: "Norway",
     option3: "Denmark",
     option4: "Iceland",
-    ans: 3, // Denmark
+    ans: 3,
   },
-  //---------------------------------------------------------
   {
     question: "Which of the following is the **hardest natural substance** on Earth?",
     option1: "Tungsten",
     option2: "Graphite",
     option3: "Diamond",
     option4: "Quartz",
-    ans: 3, // Diamond
+    ans: 3,
   },
-  //---------------------------------------------------------
   {
     question: "Which gas is the **most abundant** in the Earth's atmosphere?",
     option1: "Oxygen",
     option2: "Argon",
     option3: "Carbon Dioxide",
     option4: "Nitrogen",
-    ans: 4, // Nitrogen (~78%)
+    ans: 4,
   },
-  //---------------------------------------------------------
   {
     question: "The currency of Japan is the Yen. What is the currency of **South Korea**?",
     option1: "Rupee",
     option2: "Won",
     option3: "Ringgit",
     option4: "Baht",
-    ans: 2, // Won
+    ans: 2,
   },
-
-  //---------------------------------------------------------
   {
-    question: "The **oldest mountain range** in India is the:",
-    option1: "Himalayas",
-    option2: "Satpura Range",
-    option3: "Aravalli Range",
-    option4: "Western Ghats",
-    ans: 3, // Aravalli Range
+    question: "Which mountain range is considered the **oldest in the world**?",
+    option1: "Appalachian Mountains",
+    option2: "Rockies",
+    option3: "Alps",
+    option4: "Himalayas",
+    ans: 1,
   },
-  //---------------------------------------------------------
   {
     question: "Who invented the **telephone**?",
     option1: "Thomas Edison",
     option2: "Nikola Tesla",
     option3: "Alexander Graham Bell",
     option4: "Guglielmo Marconi",
-    ans: 3, // Alexander Graham Bell
+    ans: 3,
   },
-
-  //---------------------------------------------------------
   {
     question: "Which country has the **largest area** in the world?",
     option1: "China",
     option2: "Canada",
     option3: "Russia",
     option4: "United States",
-    ans: 3, // Russia
+    ans: 3,
   },
-  //---------------------------------------------------------
   {
     question: "Which gas is primarily responsible for the **Greenhouse Effect**?",
     option1: "Oxygen",
     option2: "Methane",
     option3: "Nitrogen",
     option4: "Carbon Dioxide",
-    ans: 4, // Carbon Dioxide (Most significant contributor due to abundance)
+    ans: 4,
   },
-  //---------------------------------------------------------
   {
     question: "Who wrote the famous novel **'War and Peace'**?",
     option1: "Fyodor Dostoevsky",
     option2: "Leo Tolstoy",
     option3: "Charles Dickens",
     option4: "Jane Austen",
-    ans: 2, // Leo Tolstoy
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
     question: "Which of the following is the **only continent** with no active volcanoes?",
     option1: "Africa",
     option2: "Antarctica",
     option3: "Australia (Oceania)",
     option4: "South America",
-    ans: 3, // Australia (Continental landmass)
+    ans: 3,
   },
-
-  //---------------------------------------------------------
   {
     question: "Which is the **smallest planet** in our solar system?",
     option1: "Mars",
     option2: "Mercury",
     option3: "Venus",
     option4: "Pluto",
-    ans: 2, // Mercury
+    ans: 2,
   },
-
-  //---------------------------------------------------------
   {
     question: "What is the **longest man-made structure** in the world?",
     option1: "Panama Canal",
     option2: "Great Wall of China",
     option3: "Suez Canal",
     option4: "Trans-Siberian Railway",
-    ans: 2, // Great Wall of China
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
-    question: "Which city is known as the **'Pink City'** of India?",
-    option1: "Mumbai",
-    option2: "Kolkata",
-    option3: "Jaipur",
-    option4: "Delhi",
-    ans: 3, // Jaipur
+    question: "Which city is known as the **'City of Light'**?",
+    option1: "New York",
+    option2: "Paris",
+    option3: "London",
+    option4: "Rome",
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
     question: "Which metal is the **most abundant** in the Earth's crust?",
     option1: "Iron (Fe)",
     option2: "Aluminum (Al)",
     option3: "Calcium (Ca)",
     option4: "Sodium (Na)",
-    ans: 2, // Aluminum (Al)
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
     question: "The **largest living species of bird** by mass is the:",
     option1: "Wandering Albatross",
     option2: "Emu",
     option3: "Ostrich",
     option4: "Siberian Crane",
-    ans: 3, // Ostrich
+    ans: 3,
   },
-  //---------------------------------------------------------
   {
     question: "Which US state is the **largest** by area?",
     option1: "Texas",
     option2: "California",
     option3: "Florida",
     option4: "Alaska",
-    ans: 4, // Alaska
+    ans: 4,
   },
-  //---------------------------------------------------------
   {
     question: "Which of the following is the **highest waterfall** in the world?",
     option1: "Niagara Falls",
     option2: "Victoria Falls",
     option3: "Angel Falls",
     option4: "Tugela Falls",
-    ans: 3, // Angel Falls
+    ans: 3,
   },
-  //---------------------------------------------------------
   {
     question: "Who was the **first woman** in space?",
     option1: "Sally Ride",
     option2: "Valentina Tereshkova",
     option3: "Kalpana Chawla",
     option4: "Svetlana Savitskaya",
-    ans: 2, // Valentina Tereshkova
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
     question: "The **largest organ** in the human body is the:",
     option1: "Brain",
     option2: "Liver",
     option3: "Lungs",
     option4: "Skin",
-    ans: 4, // Skin
+    ans: 4,
   },
-  //---------------------------------------------------------
   {
-    question: "The **oldest European Republic** is generally considered to be:",
+    question: "The **oldest republic** in the world is:",
     option1: "Switzerland",
     option2: "Iceland",
     option3: "San Marino",
     option4: "France",
-    ans: 3, // San Marino
+    ans: 3,
   },
-  //---------------------------------------------------------
-  {
-    question: "Which famous general gave the slogan, **'Give me blood and I will give you freedom'**?",
-    option1: "Bhagat Singh",
-    option2: "Subhas Chandra Bose",
-    option3: "Bal Gangadhar Tilak",
-    option4: "Lala Lajpat Rai",
-    ans: 2, // Subhas Chandra Bose
-  },
- 
-  //---------------------------------------------------------
   {
     question: "Which city is the **highest capital city** in the world by elevation?",
     option1: "Quito, Ecuador",
     option2: "La Paz, Bolivia",
     option3: "Lhasa, Tibet (China)",
     option4: "Sucre, Bolivia",
-    ans: 4, // Sucre, Bolivia (Constitutional capital)
+    ans: 2,
   },
-
-  //---------------------------------------------------------
-  {
-    question: "Who is known as the **'Iron Man of India'**?",
-    option1: "Lal Bahadur Shastri",
-    option2: "Subhas Chandra Bose",
-    option3: "Sardar Vallabhbhai Patel",
-    option4: "Mahatma Gandhi",
-    ans: 3, // Sardar Vallabhbhai Patel
-  },
-  //---------------------------------------------------------
   {
     question: "Which of the following bodies is the **largest** in the solar system?",
     option1: "Sun",
     option2: "Jupiter",
     option3: "Ganymede",
     option4: "Saturn",
-    ans: 1, // Sun
+    ans: 1,
   },
- 
-  //---------------------------------------------------------
   {
-    question: "Which of the following is the **highest civilian award** given by the Republic of India?",
-    option1: "Padma Vibhushan",
-    option2: "Bharat Ratna",
-    option3: "Padma Bhushan",
-    option4: "Param Vir Chakra",
-    ans: 2, // Bharat Ratna
+    question: "Which is the **highest civilian award** in the United States?",
+    option1: "Medal of Honor",
+    option2: "Presidential Medal of Freedom",
+    option3: "Congressional Gold Medal",
+    option4: "Purple Heart",
+    ans: 2,
   },
-  //---------------------------------------------------------
   {
     question: "Which is the **oldest and deepest freshwater lake** in the world?",
     option1: "Lake Titicaca",
     option2: "Lake Victoria",
     option3: "Lake Superior",
     option4: "Lake Baikal",
-    ans: 4, // Lake Baikal
+    ans: 4,
   },
-  //---------------------------------------------------------
   {
     question: "Which international body is responsible for maintaining international peace and security?",
     option1: "World Health Organization (WHO)",
     option2: "International Monetary Fund (IMF)",
     option3: "United Nations (UN)",
     option4: "World Trade Organization (WTO)",
-    ans: 3, // United Nations (UN)
+    ans: 3,
+  },
+  {
+    question: "Which prize is awarded annually for achievements in literature, peace, physics, chemistry, medicine, and economics?",
+    option1: "Pulitzer Prize",
+    option2: "Booker Prize",
+    option3: "Nobel Prize",
+    option4: "Fields Medal",
+    ans: 3,
+  },
+  {
+    question: "Which country hosted the **first modern Olympic Games** in 1896?",
+    option1: "France",
+    option2: "Greece",
+    option3: "United Kingdom",
+    option4: "United States",
+    ans: 2,
+  },
+  {
+    question: "Which author won the **Booker Prize** in 1981 for the novel 'Midnight’s Children'?",
+    option1: "Arundhati Roy",
+    option2: "Vikram Seth",
+    option3: "Salman Rushdie",
+    option4: "Jhumpa Lahiri",
+    ans: 3,
+  },
+  {
+    question: "The headquarters of the **World Health Organization (WHO)** is located in:",
+    option1: "Paris",
+    option2: "Geneva",
+    option3: "New York",
+    option4: "London",
+    ans: 2,
+  },
+  {
+    question: "Which scientist proposed the **theory of relativity**?",
+    option1: "Isaac Newton",
+    option2: "Galileo Galilei",
+    option3: "Albert Einstein",
+    option4: "Stephen Hawking",
+    ans: 3,
+  },
+  {
+    question: "Which is the **largest ocean** on Earth?",
+    option1: "Atlantic Ocean",
+    option2: "Indian Ocean",
+    option3: "Pacific Ocean",
+    option4: "Arctic Ocean",
+    ans: 3,
+  },
+  {
+    question: "Which city is known as the **'City of Joy'**?",
+    option1: "Mumbai",
+    option2: "Kolkata",
+    option3: "Chennai",
+    option4: "Delhi",
+    ans: 2, // replace with global
+  },
+  {
+    question: "Which European city hosts the headquarters of the **European Union**?",
+    option1: "Paris",
+    option2: "Brussels",
+    option3: "Berlin",
+    option4: "Vienna",
+    ans: 2,
   }
 ];
