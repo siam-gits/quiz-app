@@ -1,4 +1,4 @@
-```javascript
+
 export const data = [
   {
     question: "Which is the **longest** river in the world?",
