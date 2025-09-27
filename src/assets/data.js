@@ -115,15 +115,7 @@ export const data = [
     option4: "Nalanda University, India",
     ans: 2, // University of Al-Qarawiyyin, Morocco
   },
-  //---------------------------------------------------------
-  {
-    question: "What is the chemical symbol for **common salt**?",
-    option1: "HCl",
-    option2: "NaCl",
-    option3: "KCl",
-    option4: "CaCO3",
-    ans: 2, // NaCl (Sodium Chloride)
-  },
+ 
   //---------------------------------------------------------
   {
     question: "Which planet in our solar system is known as the **'Red Planet'**?",
@@ -133,15 +125,7 @@ export const data = [
     option4: "Uranus",
     ans: 2, // Mars
   },
-  //---------------------------------------------------------
-  {
-    question: "Who is known as the **'Father of the Indian Constitution'**?",
-    option1: "Mahatma Gandhi",
-    option2: "Jawaharlal Nehru",
-    option3: "B. R. Ambedkar",
-    option4: "Sardar Vallabhbhai Patel",
-    ans: 3, // B. R. Ambedkar
-  },
+
   //---------------------------------------------------------
   {
     question: "The **largest island** in the world is Greenland. Which country holds sovereignty over it?",
@@ -178,15 +162,7 @@ export const data = [
     option4: "Baht",
     ans: 2, // Won
   },
-  //---------------------------------------------------------
-  {
-    question: "The largest part of the human brain is the:",
-    option1: "Cerebellum",
-    option2: "Brainstem",
-    option3: "Cerebrum",
-    option4: "Hypothalamus",
-    ans: 3, // Cerebrum
-  },
+
   //---------------------------------------------------------
   {
     question: "The **oldest mountain range** in India is the:",
@@ -205,15 +181,7 @@ export const data = [
     option4: "Guglielmo Marconi",
     ans: 3, // Alexander Graham Bell
   },
-  //---------------------------------------------------------
-  {
-    question: "Which of the following is the **largest bone** in the human body?",
-    option1: "Stapes",
-    option2: "Tibia",
-    option3: "Femur",
-    option4: "Humerus",
-    ans: 3, // Femur (Thigh bone)
-  },
+
   //---------------------------------------------------------
   {
     question: "Which country has the **largest area** in the world?",
@@ -250,15 +218,7 @@ export const data = [
     option4: "South America",
     ans: 3, // Australia (Continental landmass)
   },
-  //---------------------------------------------------------
-  {
-    question: "What is the study of the Earth's physical structure and substance, its history, and the processes that act on it, called?",
-    option1: "Botany",
-    option2: "Geology",
-    option3: "Zoology",
-    option4: "Cosmology",
-    ans: 2, // Geology
-  },
+
   //---------------------------------------------------------
   {
     question: "Which is the **smallest planet** in our solar system?",
@@ -268,15 +228,7 @@ export const data = [
     option4: "Pluto",
     ans: 2, // Mercury
   },
-  //---------------------------------------------------------
-  {
-    question: "In which year did India launch its **first satellite, Aryabhata**?",
-    option1: "1969",
-    option2: "1975",
-    option3: "1984",
-    option4: "2008",
-    ans: 2, // 1975
-  },
+
   //---------------------------------------------------------
   {
     question: "What is the **longest man-made structure** in the world?",
@@ -367,15 +319,7 @@ export const data = [
     option4: "Lala Lajpat Rai",
     ans: 2, // Subhas Chandra Bose
   },
-  //---------------------------------------------------------
-  {
-    question: "The **largest stadium** in the world by seating capacity is located in which country?",
-    option1: "United States",
-    option2: "India",
-    option3: "North Korea",
-    option4: "Spain",
-    ans: 2, // India (Narendra Modi Stadium)
-  },
+ 
   //---------------------------------------------------------
   {
     question: "Which city is the **highest capital city** in the world by elevation?",
@@ -385,15 +329,7 @@ export const data = [
     option4: "Sucre, Bolivia",
     ans: 4, // Sucre, Bolivia (Constitutional capital)
   },
-  //---------------------------------------------------------
-  {
-    question: "The process by which plants prepare their food is called:",
-    option1: "Respiration",
-    option2: "Transpiration",
-    option3: "Photosynthesis",
-    option4: "Fermentation",
-    ans: 3, // Photosynthesis
-  },
+
   //---------------------------------------------------------
   {
     question: "Who is known as the **'Iron Man of India'**?",
@@ -412,15 +348,7 @@ export const data = [
     option4: "Saturn",
     ans: 1, // Sun
   },
-  //---------------------------------------------------------
-  {
-    question: "What is the **longest part** of the human digestive system?",
-    option1: "Esophagus",
-    option2: "Stomach",
-    option3: "Small Intestine",
-    option4: "Large Intestine",
-    ans: 3, // Small Intestine
-  },
+ 
   //---------------------------------------------------------
   {
     question: "Which of the following is the **highest civilian award** given by the Republic of India?",
